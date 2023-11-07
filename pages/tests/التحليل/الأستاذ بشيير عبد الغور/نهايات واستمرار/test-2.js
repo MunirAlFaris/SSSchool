@@ -74,9 +74,8 @@ function createQ(obj, count) {
     questionsArea.appendChild(question);
     // q title
     let title = document.createElement("div");
-    let titleT = document.createTextNode(obj[i].title);
+    title.innerHTML = obj[i].title;
     title.className = "title";
-    title.appendChild(titleT);
     question.appendChild(title);
     // answers box
     let answersBox = document.createElement("div");
@@ -93,8 +92,7 @@ function createQ(obj, count) {
       input.name = obj[i].name;
       input.value = j;
       let label = document.createElement("label");
-      let labelT = document.createTextNode(obj[i][`a-${j}`]);
-      label.appendChild(labelT);
+      label.innerHTML = obj[i][`a-${j}`];
       label.htmlFor = `${obj[i].id}a-${j}`;
       mainDiv.appendChild(label);
       mainDiv.appendChild(input);
@@ -102,7 +100,6 @@ function createQ(obj, count) {
     }
   }
 }
-
 redobtn.onclick = () => {
   redobtn.classList.remove("active");
   backBtn.classList.remove("active");
