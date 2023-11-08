@@ -323,10 +323,10 @@
     "title": "<div class='eq-main long'><div class='long-1'><span class='text'>إذا كان الخط البياني للدالة</span></div><div class='long-2'><div class='eq'><span class='sign'><i>f</i></span><span>(<i>x</i>)</span><span class='eq-sign'>=</span><div class='kasir'><span class='top'><i>e</i><sup>x</sup> + 1</span><span class='bottom'><i>e</i><sup>x</sup> - 1</span></div></div><span class='text'>فإن :</span></div></div>",
     "name": "a-33",
     "id": "33-",
-    "a-1": "<div class='eq-main long'><div class='long-1'><span class='text'>المستقيم الذي معادلته <span dir='ltr'><i>y</i><span class='sign'>=</span>1</span></span></div><div class='long-2'><span class='text'>مقارب للخط <i>c</i> في جوار <span dir='ltr'>+&infin; و -&infin;</span></span></div></div>",
-    "a-2": "<div class='eq-main long'><div class='long-1'><span class='text'>المستقيم الذي معادلته <span dir='ltr'><i>x</i><span class='sign'>=</span>1</span></span></div><div class='long-2'><span class='text'>مقارب للخط <i>c</i> في جوار <span dir='ltr'>+&infin;</span></span></div></div>",
-    "a-3": "<div class='eq-main long'><div class='long-1'><span class='text'>المستقيم الذي معادلته <span dir='ltr'><i>x</i><span class='sign'>=</span>0</span></span></div><div class='long-2'><span class='text'>مقارب للخط <i>c</i> في جوار <span dir='ltr'>+&infin; و -&infin;</span></span></div></div>",
-    "a-4": "<div class='eq-main long'><div class='long-1'><span class='text'>المستقيم الذي معادلته <span dir='ltr'><i>y</i><span class='sign'>=</span>0</span></span></div><div class='long-2'><span class='text'>مقارب للخط <i>c</i> في جوار <span dir='ltr'>-&infin;</span></span></div></div>",
+    "a-1": "<p>المستقيم الذي معادلته <span dir='ltr'><i>y</i> = 1</span>  مقارب للخط   <i> c </i>  في جوار &infin;- و &infin;+ </p>",
+    "a-2": "<p>المستقيم الذي معادلته <span dir='ltr'><i>x</i> = 1</span>  مقارب للخط   <i> c </i>  في جوار &infin;+ </p>",
+    "a-3": "<p>المستقيم الذي معادلته <span dir='ltr'><i>x</i> = 0</span>  مقارب للخط   <i> c </i>  في جوار &infin;- و &infin;+ </p>",
+    "a-4": "<p>المستقيم الذي معادلته <span dir='ltr'><i>y</i> = 1</span>  مقارب للخط   <i> c </i>  في جوار &infin;- </p>",
     "ra": "3"
   },
   {
