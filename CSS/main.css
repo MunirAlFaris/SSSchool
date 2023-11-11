@@ -1060,10 +1060,23 @@ header .logo span.box {
           align-items: center;
   margin-bottom: 15px;
 }
+@media (max-width: 767px) {
+  .test-content ul.teachers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .test-content ul.teachers li {
+  margin: 5px;
+  color: #EE5622;
   border-radius: 10px;
   font-weight: bold;
   border: 1px solid #EE5622;
+}
+.test-content ul.teachers li:hover {
+  border: 1px solid white;
 }
 .test-content ul.teachers li.active {
   border: 1px solid white;
@@ -1105,6 +1118,12 @@ header .logo span.box {
 .test-content .container ul li.active {
   background-color: #EE5622;
   color: white;
+}
+.test-content .container .teacher-box {
+  display: none;
+}
+.test-content .container .teacher-box.active {
+  display: block;
 }
 .test-content .container .test-list {
   background-color: #EE5622;
@@ -1306,7 +1325,7 @@ header .logo span.box {
   text-align: right;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 14px;
+  font-size: 18px;
 }
 @media (min-width: 768px) {
   .q-cont .question .answers div label {
@@ -1428,7 +1447,9 @@ span.sign {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 150px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .change-table .right .row {
@@ -1444,6 +1465,12 @@ span.sign {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 2px;
+}
+.change-table .right .row.one {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 span.oncapital-up {
@@ -1459,17 +1486,23 @@ span.oncapital-down {
 }
 
 /* catted table */
-.catted .right .row:nth-child(2) {
-  position: relative;
+.ct-t {
+  -ms-flex-item-align: first baseline;
+      -ms-grid-row-align: first baseline;
+      align-self: first baseline;
 }
 
-.catted .right .row:nth-child(2)::before {
-  content: "";
-  height: 200%;
-  width: 5px;
+.ct-d {
+  -ms-flex-item-align: last baseline;
+      -ms-grid-row-align: last baseline;
+      align-self: last baseline;
+}
+
+.cat {
+  display: block;
+  width: 2px;
+  height: 100%;
   background-color: black;
-  position: absolute;
-  top: 0;
 }
 
 /* Start limits */
@@ -1640,6 +1673,64 @@ span.text {
   text-align: center;
 }
 
+.kasir-ans {
+  direction: ltr;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .kasir-ans {
+    font-size: 18px;
+  }
+}
+.kasir-ans .top {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 0.5px solid black;
+  padding-bottom: 1px;
+}
+@media (min-width: 768px) {
+  .kasir-ans .top {
+    font-size: 18px;
+  }
+}
+.kasir-ans .top .under-radic {
+  left: -3.5px;
+  height: 0.5px;
+}
+.kasir-ans .bottom {
+  padding-top: 1px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .kasir-ans .bottom {
+    font-size: 18px;
+  }
+}
+
 .gathir-sign-kasir {
   position: absolute;
   left: -15px;
@@ -1711,6 +1802,8 @@ sup {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 @media (max-width: 767px) {
@@ -1725,7 +1818,7 @@ sup {
   }
 }
 
-.long-1, .long-2, .long-3, .long-4 {
+.long-1, .long-2, .long-3, .long-4, .long-5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,0 +1,94 @@
+@use './../helpers/variables.scss' as *;
+@use './../helpers/mixins.scss' as *;
+@use './../componants/links.scss' as *;
+
+.test-container {
+  padding-top: $main_padding;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px, 1fr));
+  gap: 20px;
+  padding-bottom: 50px;
+  @include minMobile {
+    grid-template-columns: repeat(auto-fill,minmax(350px, 1fr));
+  }
+  .box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px 0;
+    transition: $main_transition;
+    &:hover {
+      box-shadow: 0 0 10px black;
+      transform: translateY(-10px);
+    }
+    h2 {
+      font-size: 20px;
+      color: $orange_color;
+      text-align: center;
+      padding: 5px 0;
+      @include minMobile {
+          font-size: 28px;
+        }
+    }
+    .te-box {
+      border-top: 1px solid $orange_color;
+      padding: 5px 0 0;
+      @include minMobile {
+          font-size: 22px;
+        }
+      span {
+        display: block;
+      }
+    }
+    &:last-child {
+      display: flex;
+      flex-direction: column;
+      .te-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid $orange_color;
+        padding: 5px 0;
+        flex: 1;
+      }
+    }
+    .cont {
+      border-bottom: 1px solid $orange_color;
+      padding-bottom: 5px;
+      @include minMobile {
+        font-size: 22px;
+      }
+    }
+    .t-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      a {
+        color: white;
+        background-color: $orange_color;
+        border-radius: 6px;
+        padding: 2.5px 10px;
+        font-size: 12px;
+        font-weight: bold;
+        transition: $main_transition;
+        &:hover {
+          background-color: white;
+          border: 1px solid $orange_color;
+          color: $orange_color;
+        }
+        @include minMobile {
+          font-size: 18px;
+        }
+      }
+      span {
+        @include minMobile {
+          font-size: 18px;
+        }
+        margin-right: 5px;
+        i {
+          color: #666;
+        }
+      }
+    }
+  }
+}

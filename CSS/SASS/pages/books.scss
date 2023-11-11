@@ -1,0 +1,149 @@
+@use './../helpers/variables.scss' as *;
+@use './../helpers/mixins.scss' as *;
+@use './../componants/links.scss' as *;
+
+.files {
+  padding-top: 50px;
+  padding-bottom: $main_padding;
+  .container {
+    .switcher {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 15px;
+      li {
+        padding: 5px 10px;
+        margin: 2.5px;
+        font-size: 22px;
+        border-radius: 10px;
+        background-color: white;
+        color: $orange_color;
+        font-weight: bold;
+        transition: $main_transition;
+        cursor: pointer;
+        &.active {
+          background-color: $orange_color;
+          color: white;
+          cursor: default;
+        }
+        &:hover {
+          background-color: $orange_color;
+          color: white;
+        }
+        @include maxMobile {
+          font-size: 18px;
+        }
+      }
+    }
+    .boxes {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(225px,1fr));
+      gap: 10px;
+      .box {
+        background-color: white;
+        border-radius: 10px;
+        &.en {
+          .head {
+            .type {
+              right: -5px;
+            }
+          }
+        }
+        &.is,
+        &.tah,
+        &.eng,
+        &.ch,
+        &.ph,
+        &.sc {
+          .head {
+            .type {
+              right: 15px;
+              transform: rotate(46deg);
+            }
+          }
+        }
+        &.ge {
+          .head {
+            .type {
+              right: 25px;
+              transform: rotate(50deg);
+            }
+          }
+        }
+        .head {
+          padding: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          position: relative;
+          overflow: hidden;
+          &::before {
+            content: "";
+            width: 200px;
+            height: 30px;
+            position: absolute;
+            right: -55px;
+            top: 20px;
+            background-color: $orange_color;
+            transform: rotate(45deg);
+            z-index: 1;
+            }
+            .type {
+              position: absolute;
+              right: 0px;
+              top: 25px;
+              font-size: 14px;
+              color: white;
+              font-weight: bold;
+              transform: rotate(45deg);
+              z-index: 3;
+            }
+          }
+          img {
+            width: 80px;
+            margin: 15px 0;
+            transition: $main_transition;
+          }
+          a {
+            color: $orange_color;
+            transition: $main_transition;
+            &:hover {
+              color: #444;
+            }
+          }
+          i {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 20px;
+            color: var(--grey-color);
+          }
+          &:hover img {
+            transform: rotate(4deg);
+          }
+          p {
+            text-align: center;
+          }
+        }
+      .name {
+        padding: 15px;
+        color: var(--grey-color);
+        border-bottom: 1px solid $orange_color;
+        font-size: 13px;
+        span {
+          display: block;
+        }
+      }
+      .foot {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        color: var(--grey-color);
+        font-size: 13px;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@use './SASS/helpers/variables.scss';
+@use './SASS/helpers/mixins.scss';
+@use './SASS/componants/header.scss';
+@use "./SASS/pages/homepage.scss";
+@use "./SASS/pages/testpage.scss";
+@use './SASS/pages/subjects.scss';
+@use './SASS/pages/questions.scss';
+@use './SASS/pages/books.scss';
+@use './SASS/pages/lessons.scss';
+@use './SASS/componants/footer.scss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  user-select: none;
+  background-color: #ddd;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.page-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
