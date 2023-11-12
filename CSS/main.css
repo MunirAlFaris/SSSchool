@@ -2174,6 +2174,24 @@ sup {
   left: -1px;
 }
 
+.int {
+  position: relative;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.int > sub {
+  position: absolute;
+  bottom: -8px;
+  left: 2px;
+  font-size: 8px;
+}
+.int > sup {
+  position: absolute;
+  top: -10px;
+  left: 3px;
+  font-size: 8px;
+}
+
 .files {
   padding-top: 50px;
   padding-bottom: 100px;

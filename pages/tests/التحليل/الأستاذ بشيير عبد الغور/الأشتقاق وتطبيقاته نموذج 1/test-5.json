@@ -55,7 +55,7 @@
     "ra": "4"
   },
   {
-    "title": "<div class='eq-main long'><div class='long-1'><span class='text'>لتكن الدالة</span><div class='eq'><span class='sign'><i>f</i></span><span>(<i>x</i>)</span><span class='sign'>=</span><span><i>x</i><sup>5</sup><span class='sign'>-</span>6<i>x</i><span class='sign'>+</span>4</span></div></div><div class='long-2'><span class='text'> باستخدام علاقة التقريب الخطي نجد أن القيمة التقريبية لميل</span></div><div class='long-3'><span class='text'>المماس للخط <i>c</i> للدالة <i>f</i> في النقطة التي فاصلتها <span dir='ltr'><i>x</i> = 1.2</span> هي</span></div></div>",
+    "title": "<div class='eq-main long'><div class='long-1'><span class='text'>لتكن الدالة</span><div class='eq'><span class='sign'><i>f</i></span><span>(<i>x</i>)</span><span class='sign'>=</span><span><i>x</i><sup>5</sup><span class='sign'>-</span>6<i>x</i><span class='sign'>+</span>4</span></div></div><div class='long-2'><span class='text'> باستخدام علاقة التقريب الخطي نجد أن القيمة التقريبية لميل</span></div><div class='long-3'><span class='text'>المماس للخط <i>c</i> للدالة <i>f</i> في النقطة التي فاصلتها </div><div class='long-5'><span dir='ltr' style='padding-left: 5px;'><i>x</i> = 1.2</span> هي : </span></div></div>",
     "name": "a-6",
     "id": "6-",
     "a-1": "0.9",
@@ -88,7 +88,7 @@
     "ra": "5"
   },
   {
-    "title": "<div class='eq-main long'><div class='long-1'><span class='text'>إذا كانت <i>f</i> دالة معرفة على <span dir='ltr'>]-3,+3[</span> وفق العلاقة </span></div><div class='long-2'><div class='eq' style='padding-left: 10px'><span class='sign'><i>f</i></span><span>(<i>x</i>)</span><span class='sign'>=</span><span>&radic;<span class='under-radic'>9 - <i>x</i><sup>2</sup></span></span></div><span class='text'>فإن للدالة قيمة كبرى شاملة قيمتها : </span></div></div>",
+    "title": "<div class='eq-main long'><div class='long-1'><span class='text'>إذا كانت <i>f</i> دالة معرفة على <span dir='ltr'>]-3,+3[</span> وفق العلاقة</span></div><div class='long-2'><div class='eq'><span class='sign'><i>f</i></span><span>(<i>x</i>)</span><span class='sign'>=</span><span>&radic;<span class='under-radic'>9 - <i>x</i><sup>2</sup></span></span></div></div><div class='long-3'><span class='text'>فإن للدالة قيمة كبرى شاملة قيمتها : </span></div></div>",
     "name": "a-9",
     "id": "9-",
     "a-1": "1",
