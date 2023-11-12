@@ -33,7 +33,7 @@
     "ra": "4"
   },
   {
-    "title": "<div class='eq-main long'><div class='long-1'><span class='text'>إذا كان <i>c</i> الخط البياني للدالة</span></div><div class='long-2'><div class='eq'><span class='sign'><i>f</i></span><span>(<i>x</i>)</span><span class='sign'>=</span><span><i>ax</i><sup>3</sup><span class='sign'>+</span>3<i>x</i><sup>2</sup><span class='sign'>+</span>3<i>x</i></span></div><span class='text'>فإن قيمة <i>a</i>  التي من أجلها الخط </span></div><div class='long-3'><span class='text'>البياني <i>c</i> يقبل مماسا أفقيا في النقطة التي فاصلتها</span></div><div class='long-4'><span dir='ltr' style='padding-left: 5px'> <i>x</i><span class='sign'>=</span>1</span> هي : </div></div>",
+    "title": "<div class='eq-main long'><div class='long-1'><span class='text'>إذا كان <i>c</i> الخط البياني للدالة</span></div><div class='long-2'><div class='eq'><span class='sign'><i>f</i></span><span>(<i>x</i>)</span><span class='sign'>=</span><span><i>ax</i><sup>3</sup><span class='sign'>+</span>3<i>x</i><sup>2</sup><span class='sign'>+</span>3<i>x</i></span></div></div><div class='long-3'><span class='text'> فإن قيمة <i>a</i> التي من أجلها الخط البباني <i>c</i> يقبل مماسا أفقيا في النقطة التي فاصلتها</span></div><div class='long-4'><span dir='ltr' style='padding-left: 5px'> <i>x</i><span class='sign'>=</span>1</span> هي : </div></div>",
     "name": "a-4",
     "id": "4-",
     "a-1": "3-",
@@ -88,7 +88,7 @@
     "ra": "5"
   },
   {
-    "title": "<div class='eq-main long'><div class='long-1'><span class='text'>إذا كانت <i>f</i> دالة معرفة على <span dir='ltr'>]-3,+3[</span> وفق العلاقة </span></div><div class='long-2'><div class='eq'><span class='sign'><i>f</i></span><span>(<i>x</i>)</span><span class='sign'>=</span><span>&radic;<span class='under-radic'>9 - <i>x</i><sup>2</sup></span></span></div><span class='text'>فإن للدالة قيمة كبرى شاملة قيمتها : </span></div></div>",
+    "title": "<div class='eq-main long'><div class='long-1'><span class='text'>إذا كانت <i>f</i> دالة معرفة على <span dir='ltr'>]-3,+3[</span> وفق العلاقة </span></div><div class='long-2'><div class='eq' style='padding-left: 10px'><span class='sign'><i>f</i></span><span>(<i>x</i>)</span><span class='sign'>=</span><span>&radic;<span class='under-radic'>9 - <i>x</i><sup>2</sup></span></span></div><span class='text'>فإن للدالة قيمة كبرى شاملة قيمتها : </span></div></div>",
     "name": "a-9",
     "id": "9-",
     "a-1": "1",

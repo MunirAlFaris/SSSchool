@@ -1325,11 +1325,11 @@ header .logo span.box {
   text-align: right;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 18px;
+  font-size: 20px;
 }
 @media (min-width: 768px) {
   .q-cont .question .answers div label {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 .q-cont .question .answers div label span {
@@ -1477,12 +1477,14 @@ span.oncapital-up {
   display: block;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
+  font-size: 25px;
 }
 
 span.oncapital-down {
   display: block;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  font-size: 25px;
 }
 
 /* catted table */
@@ -1521,6 +1523,11 @@ span.oncapital-down {
 span.text {
   margin: 0 10px;
 }
+@media (min-width: 768px) {
+  span.text {
+    margin: 2px;
+  }
+}
 
 .eq {
   display: -webkit-box;
@@ -1533,7 +1540,7 @@ span.text {
 }
 @media (min-width: 768px) {
   .eq span span:not(.top-nisted, .bottom-nisted) {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
