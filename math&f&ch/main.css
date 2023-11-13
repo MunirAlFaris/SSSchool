@@ -1,0 +1,130 @@
+/* chemical */
+.num {
+  font-size: 55px;
+  color: green;
+}
+/* 1 */
+.dblarrow {
+    font-size: 125%;
+    top: -0.4ex;
+    margin: 0 2px;
+}
+.dblarrow:after {
+    content:"\2190";
+    position: absolute;
+    left: 0;
+    top: 0.5ex;
+}
+/* 2 */
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+.fraction span.fdn {border-top: thin solid black;}
+.fraction span.bar {display: none;}
+
+/* 4 */
+.sy, 
+.sy-r, 
+.sy-g, 
+.sy-b {
+    position: relative;
+    text-align: center;
+}
+.sy-r {color: #f00;}
+.sy-g {color: #4f8c4f;}
+.sy-b {color: #00f;}
+.oxbr, 
+.oncapital, 
+.onsmall {
+    position: absolute;
+    top: -1em;
+    left: 0px;
+    width: 100%;
+    font-size: 70%;
+    text-align: center;
+}
+.onsmall {
+    top: -0.7em;
+}
+/* physical  */
+/* 1 */
+.sy {
+    position: relative;
+    text-align: center;
+}
+.oncapital, .onsmall {
+    position: absolute;
+    top: -1em;
+    left: 0px;
+    width: 100%;
+    font-size: 70%;
+    text-align: center;
+}
+.onsmall {
+    top: -0.7em;
+}
+/* 2 */
+.limes {
+    position: relative;
+    display: inline-block;
+    margin: 0 0.2em;
+    vertical-align: middle; 
+    text-align: center;
+}
+.limes > span { 
+    display: block;
+    margin:-0.5ex auto;
+}
+.limes span.numup,
+.limes span.overdn {
+    font-size: 70%;
+}
+/* math */
+/* 1 */
+.intsuma {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.intsuma > span {
+    display: block;
+    font-size: 70%;
+}
+.intsuma .lim-up {
+    margin-bottom: -1.0ex;
+}
+.intsuma .lim {
+    margin-top: -0.5ex;
+}
+.intsuma .sum {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.intsuma .sum-frac {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+/* 2 */
+.radical {
+    position: relative;
+    font-size: 1.6em;
+    vertical-align: middle;
+}
+.n-root {
+    position: absolute;
+    top: -0.333em;
+    left: 0.333em;
+    font-size: 45%;
+}
+.radicand { 
+    padding: 0.25em 0.25em;
+    border-top: thin black solid;
+}
