@@ -1544,9 +1544,11 @@ span.text {
   }
 }
 
-.eq-ans {
-  -ms-flex-preferred-size: content !important;
-      flex-basis: content !important;
+@media (max-width: 767px) {
+  .eq-ans {
+    -ms-flex-preferred-size: content !important;
+        flex-basis: content !important;
+  }
 }
 @media (min-width: 768px) {
   .eq-ans {
@@ -1562,11 +1564,6 @@ span.text {
 }
 .eq-ans .kasir span {
   font-size: 14px;
-}
-@media (min-width: 768px) {
-  .eq-ans .kasir span {
-    font-size: 20px;
-  }
 }
 
 .eq-sign {
