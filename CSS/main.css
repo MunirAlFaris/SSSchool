@@ -1545,8 +1545,20 @@ span.text {
 }
 
 .eq-ans {
-  -ms-flex-preferred-size: 55%;
-      flex-basis: 55%;
+  -ms-flex-preferred-size: content !important;
+      flex-basis: content !important;
+}
+@media (min-width: 768px) {
+  .eq-ans {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-preferred-size: content !important;
+        flex-basis: content !important;
+  }
 }
 .eq-ans .kasir span {
   font-size: 14px;
