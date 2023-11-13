@@ -279,6 +279,7 @@ span.text {
 .eq-ans {
   @include maxMobile {
     flex-basis: content !important;
+    align-items: center;
   }
   @include minMobile {
     justify-content: flex-end;

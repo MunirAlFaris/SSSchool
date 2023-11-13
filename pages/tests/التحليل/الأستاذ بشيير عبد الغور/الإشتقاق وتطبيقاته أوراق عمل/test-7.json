@@ -455,7 +455,7 @@
     "id": "46-",
     "a-1": "<p>على المجال <span dir='ltr'>]-&infin; , 4[</span> فقط</p>",
     "a-2": "<p>على المجال <span dir='ltr'>]-2 , +&infin;[</span> فقط</p>",
-    "a-3": "<p>على كل من المجالين  <span dir='ltr'>]-2 , +&infin;[و]-&infin; , -2[</span></p>",
+    "a-3": "<p style='font-size: 16px'>على كل من المجالين  <span dir='ltr'>]-2 , +&infin;[و]-&infin; , -2[</span></p>",
     "a-4": "<p>على المجال <span dir='ltr'>]-&infin; , -2[</span> فقط</p>",
     "ra": "3"
   },
