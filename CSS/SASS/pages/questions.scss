@@ -782,3 +782,13 @@ sup {
     font-size: 8px;
   }
 }
+.top-rarr {
+  position: relative;
+  display: inline-block;
+  .rarr {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    font-size: 12px;
+  }
+}
