@@ -792,3 +792,112 @@ sup {
     font-size: 12px;
   }
 }
+.i-sup {
+  font-size: 12px;
+  position: relative;
+  padding-right: 3px;
+  > sup {
+    position: absolute;
+    right: -2px;
+    top: -5px;
+    font-size: 12px;
+  }
+}
+.random-change {
+  width: fit-content;
+  direction: ltr;
+  border: 1px solid black;
+  .row {
+    display: flex;
+    width: 100%;
+    &:first-child {
+      border-bottom: 1px solid black;
+    }
+    span {
+      // padding: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      &.first {
+        width: 120px;
+        padding: 0 3px ;
+      }
+      > sub {
+        font-size: 8px;
+        padding-top: 10px;
+      }
+    }
+    &:first-child {
+      span:not(:last-child) {
+        border-right: 1px solid black;
+      }
+    }
+    &:last-child {
+      > span:not(:last-child) {
+        border-right: 1px solid black;
+      }
+    }
+  }
+}
+
+.array {
+  display: flex;
+  flex-direction: column;
+  direction: ltr;
+  max-width: 150px;
+  position: relative;
+  margin-right: 25px;
+  &::before {
+    content: '[';
+    position: absolute;
+    left: -30px;
+    top: -10px;
+    font-size: 80px;
+  }
+  &::after {
+    content: ']';
+    position: absolute;
+    right: -30px;
+    top: -9px;
+    font-size: 80px;
+  }
+  span.row {
+    display: flex;
+    justify-content: space-between;
+    span {
+      display: block;
+      width: 20px;
+    }
+  }
+}.eq {
+  > .array {
+    margin: 0 10px;
+    &::before,
+    &::after {
+      font-size: 60px;
+    }
+    &::before {
+      left: -10px;
+      top: -13px;
+    }
+    &::after {
+      right: -20px;
+      top: -13px;
+    }
+    &.row-4 {
+      margin-right: 15px;
+      &::before,
+      &::after {
+        font-size: 80px;
+        top: -17px;
+      }
+    }
+    &::before {
+      left: -14px;
+    }
+    &::after {
+      right: -25px;
+    }
+  }
+}
