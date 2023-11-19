@@ -2341,6 +2341,16 @@ sup {
   display: block;
   width: 20px;
 }
+.array.row-2::before, .array.row-2::after {
+  font-size: 50px;
+  top: 0;
+}
+.array.row-2::before {
+  left: -14px;
+}
+.array.row-2::after {
+  right: -14px;
+}
 
 .eq > .array {
   margin: 0 10px;
@@ -2363,10 +2373,10 @@ sup {
   font-size: 80px;
   top: -17px;
 }
-.eq > .array::before {
+.eq > .array.row-4::before {
   left: -14px;
 }
-.eq > .array::after {
+.eq > .array.row-4::after {
   right: -25px;
 }
 

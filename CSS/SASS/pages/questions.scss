@@ -870,7 +870,22 @@ sup {
       width: 20px;
     }
   }
-}.eq {
+      &.row-2 {
+      // padding: 0 0 15px 0;
+      &::before,
+      &::after {
+        font-size: 50px;
+        top: 0;
+      }
+      &::before {
+        left: -14px;
+      }
+      &::after {
+        right: -14px;
+      }
+    }
+}
+.eq {
   > .array {
     margin: 0 10px;
     &::before,
@@ -892,12 +907,12 @@ sup {
         font-size: 80px;
         top: -17px;
       }
-    }
-    &::before {
-      left: -14px;
-    }
-    &::after {
-      right: -25px;
+      &::before {
+        left: -14px;
+      }
+      &::after {
+        right: -25px;
+      }
     }
   }
 }
