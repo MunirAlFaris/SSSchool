@@ -48,6 +48,7 @@
         transition: $main_transition;
         text-align: center;
         cursor: pointer;
+        border-bottom: 1px solid $orange_color;
         &:hover {
           background-color: $orange_color;
           color: white;
@@ -93,9 +94,6 @@
         border-bottom: 1px solid $orange_color;
         @include minMobile {
           border-left: 1px solid $orange_color;
-        }
-        &:first-child {
-          border-top: 1px solid $orange_color;
         }
         &:hover {
           background-color: $orange_color;

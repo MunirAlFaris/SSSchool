@@ -1118,6 +1118,7 @@ header .logo span.box {
   transition: 0.4s;
   text-align: center;
   cursor: pointer;
+  border-bottom: 1px solid #EE5622;
 }
 .test-content .container ul li:hover {
   background-color: #EE5622;
@@ -1175,9 +1176,6 @@ header .logo span.box {
   .test-content .container .test-list .row {
     border-left: 1px solid #EE5622;
   }
-}
-.test-content .container .test-list .row:first-child {
-  border-top: 1px solid #EE5622;
 }
 .test-content .container .test-list .row:hover {
   background-color: #EE5622;
