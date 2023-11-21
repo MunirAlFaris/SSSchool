@@ -234,10 +234,10 @@
     "title": "<p>إن الشكل النموذجي لمعادلة القطع الناقص الذي معادلته <span dir='ltr' style='display: inline-block;'>9<i>x</i><sup>2</sup> + 54<i>x</i> + 4<i>y</i><sup>2</sup> - 8<i>y</i> + 49 = 0 </span> هي : </p>",
     "name": "a-24",
     "id": "24-",
-    "a-1": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> - 1)<sup>2</sup></span><span class='bottom'>9</span></div><span class='sign'>=</span><span>1</span></div>",
-    "a-2": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>y</i> + 1)<sup>2</sup></span><span class='bottom'>9</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-1": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> - 1)<sup>2</sup></span><span class='bottom'>9</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-2": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>y</i> + 1)<sup>2</sup></span><span class='bottom'>9</span></div><span class='sign'>=</span><span>1</span></div>",
     "a-3": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> + 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> - 1)<sup>2</sup></span><span class='bottom'>9</span></div><span class='sign'>=</span><span>1</span></div>",
-    "a-4": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>16</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> - 1)<sup>2</sup></span><span class='bottom'>9</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-4": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>16</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> - 1)<sup>2</sup></span><span class='bottom'>9</span></div><span class='sign'>=</span><span>1</span></div>",
     "ra": "3"
   },
   {
@@ -284,10 +284,10 @@
     "title": "<p>معادلة القطع الناقص الذي محرقاه <span dir='ltr' style='display: inline-block'>F'(-1 , 2) , F(5 , 2)</span> وإحدى ذراه <span dir='ltr' style='display: inline-block'>(6 , 2)</span> هي : </p>",
     "name": "a-29",
     "id": "29-",
-    "a-1": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>x</i> - 2)<sup>2</sup></span><span class='bottom'>25</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>y</i> - 2)<sup>2</sup></span><span class='bottom'>9</span></div><span class='sign'>=</span><span>1</span></div>",
-    "a-2": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>x</i> - 2)<sup>2</sup></span><span class='bottom'>25</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>y</i> - 2)<sup>2</sup></span><span class='bottom'>16</span></div><span class='sign'>=</span><span>1</span></div>",
-    "a-3": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>x</i> - 2)<sup>2</sup></span><span class='bottom'>16</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>y</i> - 2)<sup>2</sup></span><span class='bottom'>7</span></div><span class='sign'>=</span><span>1</span></div>",
-    "a-4": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>x</i> - 2)<sup>2</sup></span><span class='bottom'>7</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>y</i> - 2)<sup>2</sup></span><span class='bottom'>16</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-1": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> - 2)<sup>2</sup></span><span class='bottom'>25</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>y</i> - 2)<sup>2</sup></span><span class='bottom'>9</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-2": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> - 2)<sup>2</sup></span><span class='bottom'>25</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>y</i> - 2)<sup>2</sup></span><span class='bottom'>16</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-3": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> - 2)<sup>2</sup></span><span class='bottom'>16</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>y</i> - 2)<sup>2</sup></span><span class='bottom'>7</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-4": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> - 2)<sup>2</sup></span><span class='bottom'>7</span></div><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top' style='display: inline-block;'>(<i>y</i> - 2)<sup>2</sup></span><span class='bottom'>16</span></div><span class='sign'>=</span><span>1</span></div>",
     "ra": "3"
   },
   {
@@ -344,10 +344,10 @@
     "title": "<p>في القطع الزائد دوما يكون : </p>",
     "name": "a-35",
     "id": "35-",
-    "a-1": "<span dir='ltr'><i>a</i><sup>2</sup> + <i>c</i><sup>2 = <i>b</i><sup>2</sup></sup></span>",
-    "a-2": "<span dir='ltr'><i>b</i><sup>2</sup> - <i>c</i><sup>2 = <i>a</i><sup>2</sup></sup></span>",
-    "a-3": "<span dir='ltr'><i>a</i><sup>2</sup> + <i>b</i><sup>2 = <i>c</i><sup>2</sup></sup></span>",
-    "a-4": "<span dir='ltr'><i>a</i><sup>2</sup> - <i>b</i><sup>2 = <i>c</i><sup>2</sup></sup></span>",
+    "a-1": "<span dir='ltr'><i>a</i><sup>2</sup> + <i>c</i><sup>2</sup> = <i>b</i><sup>2</sup></span>",
+    "a-2": "<span dir='ltr'><i>b</i><sup>2</sup> - <i>c</i><sup>2</sup> = <i>a</i><sup>2</sup></span>",
+    "a-3": "<span dir='ltr'><i>a</i><sup>2</sup> + <i>b</i><sup>2</sup> = <i>c</i><sup>2</sup></span>",
+    "a-4": "<span dir='ltr'><i>a</i><sup>2</sup> - <i>b</i><sup>2</sup> = <i>c</i><sup>2</sup></span>",
     "ra": "3"
   },
   {
@@ -405,9 +405,9 @@
     "name": "a-41",
     "id": "41-",
     "a-1": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> + 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>-</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> - 3)<sup>2</sup></span><span class='bottom'>36</span></div><span class='sign'>=</span><span>1</span></div>",
-    "a-2": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top'>(<i>x</i> + 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>-</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> + 3)<sup>2</sup></span><span class='bottom'>36</span></div><span class='sign'>=</span><span>1</span></div>",
-    "a-3": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>-</span><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>y</i> + 3)<sup>2</sup></span><span class='bottom'>36</span></div><span class='sign'>=</span><span>1</span></div>",
-    "a-4": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>-</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> - 3)<sup>2</sup></span><span class='bottom'>36</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-2": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> + 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>-</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> + 3)<sup>2</sup></span><span class='bottom'>36</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-3": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>-</span><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>y</i> + 3)<sup>2</sup></span><span class='bottom'>36</span></div><span class='sign'>=</span><span>1</span></div>",
+    "a-4": "<div class='eq-ans' dir='ltr'><div class='kasir' style='flex: 2;'><span class='top' style='width: 75px'>(<i>x</i> - 3)<sup>2</sup></span><span class='bottom'>4</span></div><span class='sign'>-</span><div class='kasir' style='flex: 2;'><span class='top'>(<i>y</i> - 3)<sup>2</sup></span><span class='bottom'>36</span></div><span class='sign'>=</span><span>1</span></div>",
     "ra": "1"
   },
   {
