@@ -42,6 +42,9 @@
       grid-template-columns: repeat(auto-fill,minmax(225px,1fr));
       gap: 10px;
       .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         background-color: white;
         border-radius: 10px;
         &.en {
@@ -131,13 +134,13 @@
       .name {
         padding: 15px;
         color: var(--grey-color);
-        border-bottom: 1px solid $orange_color;
         font-size: 13px;
         span {
           display: block;
         }
       }
       .foot {
+        border-top: 1px solid $orange_color;
         display: flex;
         justify-content: space-between;
         padding: 15px;

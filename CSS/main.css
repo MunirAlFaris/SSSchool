@@ -2428,6 +2428,16 @@ sup {
   gap: 10px;
 }
 .files .container .boxes .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: white;
   border-radius: 10px;
 }
@@ -2516,13 +2526,13 @@ sup {
 .files .container .boxes .name {
   padding: 15px;
   color: var(--grey-color);
-  border-bottom: 1px solid #EE5622;
   font-size: 13px;
 }
 .files .container .boxes .name span {
   display: block;
 }
 .files .container .boxes .foot {
+  border-top: 1px solid #EE5622;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2554,12 +2564,16 @@ sup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
 }
 .lessons .container .switcher li {
   background-color: white;
+  margin: 5px;
   color: #EE5622;
   padding: 5px 15px;
   border-radius: 10px;
@@ -2576,7 +2590,7 @@ sup {
 }
 @media (min-width: 768px) {
   .lessons .container .switcher li {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 .lessons .container .switcher li.active {
@@ -2631,7 +2645,7 @@ sup {
 }
 @media (min-width: 768px) {
   .lessons .container .boxes .box .teachers li {
-    font-size: 38px;
+    font-size: 30px;
   }
 }
 .lessons .container .boxes .box .teachers li i {
@@ -2645,7 +2659,7 @@ sup {
 }
 @media (min-width: 768px) {
   .lessons .container .boxes .box .teachers li i {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 .lessons .container .boxes .box .teachers li.active i {
@@ -2663,6 +2677,13 @@ sup {
   display: grid;
   -ms-grid-columns: (1fr)[2];
   grid-template-columns: repeat(2, 1fr);
+}
+.lessons .container .boxes .box .videos.not-long {
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+}
+.lessons .container .boxes .box .videos.not-long a {
+  text-align: center;
 }
 @media (max-width: 767px) {
   .lessons .container .boxes .box .videos {

@@ -11,9 +11,12 @@
     justify-content: center;
     .switcher {
       display: flex;
-      justify-content: space-evenly;
+      flex-wrap: wrap;
+      justify-content: center;
+      overflow: hidden;
       li {
         background-color: white;
+        margin: 5px;
         color: $orange_color;
         padding: 5px 15px;
         border-radius: 10px;
@@ -25,7 +28,7 @@
           font-size: 20px;
         }
         @include minMobile {
-          font-size: 35px;
+          font-size: 25px;
         }
         &.active {
           background-color: $orange_color;
@@ -67,7 +70,7 @@
               font-size: 25px;
             }
             @include minMobile {
-              font-size: 38px;
+              font-size: 30px;
             }
             i {
               position: absolute;
@@ -77,7 +80,7 @@
               left: 20px;
               top: 20px;
               @include minMobile {
-                font-size: 45px;
+                font-size: 30px;
               }
             }
             &.active i {
@@ -95,6 +98,12 @@
           border-bottom-right-radius: 10px;
           display: grid;
           grid-template-columns: repeat(2,1fr);
+          &.not-long {
+            grid-template-columns: 1fr;
+            a {
+              text-align: center;
+            }
+          }
           @include maxMobile {
             grid-template-columns: 1fr;
           }
