@@ -2444,7 +2444,7 @@ sup {
 .files .container .boxes .box.en .head .type {
   right: -5px;
 }
-.files .container .boxes .box.is .head .type, .files .container .boxes .box.tah .head .type, .files .container .boxes .box.eng .head .type, .files .container .boxes .box.ch .head .type, .files .container .boxes .box.ph .head .type, .files .container .boxes .box.sc .head .type {
+.files .container .boxes .box.math .head .type, .files .container .boxes .box.is .head .type, .files .container .boxes .box.tah .head .type, .files .container .boxes .box.eng .head .type, .files .container .boxes .box.ch .head .type, .files .container .boxes .box.ph .head .type, .files .container .boxes .box.sc .head .type {
   right: 15px;
   -webkit-transform: rotate(46deg);
           transform: rotate(46deg);
