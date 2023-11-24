@@ -1,0 +1,172 @@
+[
+  {
+    "title": "Sipariş kim veriyor ?",
+    "name": "a-1",
+    "id": "1-",
+    "a-1": "Akira",
+    "a-2": "Ayşe",
+    "a-3": "Osman",
+    "a-4": "Hakan bey",
+    "ra": ""
+  },
+  {
+    "title": "Emily hangi kahvaltıyı seçiyor ?",
+    "name": "a-2",
+    "id": "2-",
+    "a-1": "trabzon kahvaltı,",
+    "a-2": "fark etmez ,",
+    "a-3": "Van kahvaltı ,",
+    "a-4": "ikisi",
+    "ra": ""
+  },
+  {
+    "title": "Murat , niçin Van kahvaltısı seçiyor ?",
+    "name": "a-3",
+    "id": "3-",
+    "a-1": "<p style='text-align: left'>çünkü kuymağın tadını merak ediyor</p>",
+    "a-2": "çünkü çay sınırsız",
+    "a-3": "çünkü kırk çeşit kahvaltılık var",
+    "a-4": "çünkü kahvaltısında gözleme var.",
+    "ra": ""
+  },
+  {
+    "title": "Et ürünleri doğru işaretleyin",
+    "name": "a-4",
+    "id": "4-",
+    "a-1": "kiraz",
+    "a-2": "tavuk",
+    "a-3": "kavun",
+    "a-4": "karpuz",
+    "ra": ""
+  },
+  {
+    "title": "karpuzun ölçü nedir",
+    "name": "a-5",
+    "id": "5-",
+    "a-1": "tane",
+    "a-2": "kalıp",
+    "a-3": "litre",
+    "a-4": "kilo",
+    "ra": ""
+  },
+  {
+    "title": "Bir fincan ........... kahve alabilimiyim?",
+    "name": "a-6",
+    "id": "6-",
+    "a-1": "aclı",
+    "a-2": "tatlı",
+    "a-3": "ekşi",
+    "a-4": "sütlü",
+    "ra": ""
+  },
+  {
+    "title": "Bir kilo................ biber almak istiyorum .",
+    "name": "a-7",
+    "id": "7-",
+    "a-1": "Soslu",
+    "a-2": "ekşi",
+    "a-3": "Peynirli",
+    "a-4": "acısız",
+    "ra": ""
+  },
+  {
+    "title": "Biz üç porsiyon ...................makarna alalım",
+    "name": "a-8",
+    "id": "8-",
+    "a-1": "Peynirli",
+    "a-2": "tatlı",
+    "a-3": "sütlü",
+    "a-4": "şekerli",
+    "ra": ""
+  },
+  {
+    "title": "<p><div><b>Müşteri : </b>Affedersiniz ? Bakar mısınız?</div><div><b>Garsun : </b> Hoş geldiniz , buyrun .</div><div><b>Müşteri : </b>Sipariş vermek istiyorum .Lütfen</div><div>...........................</div><div><b>Garsun : </b>Tabii ki buyrun menü.</div></p>",
+    "name": "a-9",
+    "id": "9-",
+    "a-1": "Siparişinizi alabilirmiyim ?",
+    "a-2": "Ödeme kerdi kartıyla olacak",
+    "a-3": "Hesabı alabilirmiyim ?",
+    "a-4": "menü alabilirmiyim",
+    "ra": ""
+  },
+  {
+    "title": "Eş anlam (birlikte) ne gelir ?",
+    "name": "a-10",
+    "id": "10-",
+    "a-1": "üzgün",
+    "a-2": "his",
+    "a-3": "beraber",
+    "a-4": "tabiat",
+    "ra": ""
+  },
+  {
+    "title": "<p><div> A: ………../ sana göre bu yemek nasıl?</div><div>B: bence /…………… bu yemek çok güzel</div></p>",
+    "name": "a-11",
+    "id": "11-",
+    "a-1": "bence - sence",
+    "a-2": "sence - bana göre",
+    "a-3": "bizce - sana göre",
+    "a-4": "sizce - bana göre",
+    "ra": ""
+  },
+  {
+    "title": "<p><div><b>lokantada</b></div><div><b>Satıcı : </b>Hoş geldiniz</div><div><b>Müşteri : </b>………………</div><div><b>Satıcı : </b>ne arzu edersiniz</div><div><b>Müşteri : </b> …………………………</div><div><b>Satıcı : </b>tabii , buyurun</div><div><b>Müşteri : </b>teşekkür ederim</div></p>",
+    "name": "a-12",
+    "id": "12-",
+    "a-1": "<p style='text-align: left'>borcum ne kadar - yine bekleriz</p>",
+    "a-2": "<p style='text-align: left'>selamünaleyküm - menü alabilir miyim</p>",
+    "a-3": "<p style='text-align: left'>hoşça kal - başka bir şey ister misiniz</p>",
+    "a-4": "<p style='text-align: left'>hoşgeldiniz - menü alabilir miyim</p>",
+    "ra": ""
+  },
+  {
+    "title": "dedem şeker sevmiyor çünkü hasta buyüzde çay …………….. içiyor .",
+    "name": "a-13",
+    "id": "13-",
+    "a-1": "şekerli",
+    "a-2": "şekersiz",
+    "a-3": "tuzlu",
+    "a-4": "yoğurtsuz",
+    "ra": ""
+  },
+  {
+    "title": "…………….bir kahvaltılık çeşididir",
+    "name": "a-14",
+    "id": "14-",
+    "a-1": "kebap",
+    "a-2": "biber dolma.",
+    "a-3": "kuymak",
+    "a-4": "kuru fasulye",
+    "ra": ""
+  },
+  {
+    "title": "bir kilo demir mi , bir kilo pamuk mu daha ağırdır",
+    "name": "a-15",
+    "id": "15-",
+    "a-1": "<p style='text-align: left'>Bir kilo pamuk ,bir kilo demirden daha ağır</p>",
+    "a-2": "<p style='text-align: left'>bir kilo demir,bir kilo pamuktan daha hafif</p>",
+    "a-3": "<p style='text-align: left'>bir kilo demir, bir kilo demirden daha güze</p>",
+    "a-4": "<p style='text-align: left'> Her ikisi eşittir</p>",
+    "ra": ""
+  },
+  {
+    "title": "Aşağıdakilerden hangi cümlede bir kişisel görüş bildirme vardır ?",
+    "name": "a-16",
+    "id": "16-",
+    "a-1": "En güzel ders matematik",
+    "a-2": "bana göre bugün çok sıcak",
+    "a-3": "Babam öğretmen olarak çalışıyor",
+    "a-4": "ben ailemi seviyorum",
+    "ra": ""
+  },
+  {
+    "title": "Bugün marketten bir ……… yumurta aldım",
+    "name": "a-17",
+    "id": "17-",
+    "a-1": "kilo",
+    "a-2": "paket",
+    "a-3": "şişe",
+    "a-4": "koli",
+    "ra": ""
+  }
+]

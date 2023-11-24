@@ -16,6 +16,14 @@
     &.done {
       pointer-events: none;
     }
+    &.ltr {
+      .question {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .title {
+        text-align: left;
+      }
+    }
   }
   .data {
     background-color: $orange_color;
@@ -45,7 +53,21 @@
       }
     }
   }
-
+  .text-sub {
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    @include minMobile {
+      width: 700px;
+      font-size: 22px;
+    }
+    .q-t {
+      font-weight: bold;
+    }
+  }
   .question {
     font-family: serif;
     display: flex;

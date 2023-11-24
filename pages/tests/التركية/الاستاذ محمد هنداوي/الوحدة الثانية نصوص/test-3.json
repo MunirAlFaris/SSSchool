@@ -1,0 +1,113 @@
+[
+  {
+    "title": "<div><h4 style='text-align: center;'>İlkbahar</h4><p style='padding: 5px; 0'>Merhaba, benim adım Şef-Tali. Beni hepiniz tanırsınız Ben bir şeftali ağacıyım. On sene önce 21 Martta doğdum. ilkbahar mevsimi 21 Martta başlar, 21 Hazirana kadar devam eder Bu mevsimde hava genellikle ılık ve yağışlı Sıcaklık genellikle 20 derecedir. İlkbahar mevsimi benim en sevdigim mevsimdir. Neden mi? Çünkü her sene bu mevsimde yeniden doğarız, canlanırız. Çiçek açarız.</p><div style='padding: 5px 0;'><b>*Aşağıdaki soruları metne göre cevaplayın</b></div><div style='padding: 5px 0;'>-İlkbaharın başlangıç tarihi nedir?</div></div>",
+    "name": "a-1",
+    "id": "1-",
+    "a-1": "21 Mart",
+    "a-2": "21 Mayıs",
+    "a-3": "21 Nisan",
+    "a-4": "21 Şubat",
+    "ra": ""
+  },
+  {
+    "title": "Şef-Tali'nin en sevdiği mevsim hangisi?",
+    "name": "a-2",
+    "id": "2-",
+    "a-1": "kış",
+    "a-2": "son bahar",
+    "a-3": "yaz",
+    "a-4": "ilkbahar",
+    "ra": ""
+  },
+  {
+    "title": "Şeftalinin niçin en çok İlkbahar mevsimini seviyor?",
+    "name": "a-3",
+    "id": "3-",
+    "a-1": "Çünkü hava ılıktır.",
+    "a-2": "<p style='text-align: left'>Çünkü bu mevsimde yeniden doğuyor,çiçek açıyor</p>",
+    "a-3": "<p style='text-align: left'>Çünkü Sıcaklık genelkle 20 derecedir</p>",
+    "a-4": "<p style='text-align: left'>Çünkü en sevdigim mevsimdir</p>",
+    "ra": ""
+  },
+  {
+    "title": "İlkbahar mevsimini ne zaman biter?",
+    "name": "a-4",
+    "id": "4-",
+    "a-1": "21 Mart'ta",
+    "a-2": "21 Mayıs'ta",
+    "a-3": "21 Nisan da",
+    "a-4": "21 Nisan da",
+    "ra": ""
+  },
+  {
+    "title": "İlkbahar mevsimin havası nasıldır ?",
+    "name": "a-5",
+    "id": "5-",
+    "a-1": "sıcak",
+    "a-2": "serin",
+    "a-3": "soğuk",
+    "a-4": "ılık",
+    "ra": ""
+  },
+  {
+    "title": "<div><h4 style='text-align: center;'>Sonbahar</h4><p style='padding: 5px 0;'>Merhaba, arkadaşlar. Beni özlediniz mi? Ben özledim. Bugün 23 eylül yani sonbahar mevsiminin başlangıcı. Sonbahar mevsimi21 Eylül'de başlar,21Aralık'a kadar devam eder. Bu mevsimde hava genellikle serin ve yağmurludur. Sıcaklık ortalama 10 derecedir. En sevmediğim mevsimi sonbahardır.Çünkü Yaprakları sararır ve dökülür. Sizlere veda ederim</p><div style='padding: 5px 0;'><b>Aşağıdaki soruları metne göre cevaplayın</b></div><div style='padding: 5px 0;'>-Sonbaharın başlangıç tarihi nedir?</div></div>",
+    "name": "a-6",
+    "id": "6-",
+    "a-1": "21 Mart'ta",
+    "a-2": "21 Mayıs'ta",
+    "a-3": "21 Eylül 'de",
+    "a-4": "21 Haziran'da",
+    "ra": ""
+  },
+  {
+    "title": "Sonbahar mevsimin havası nasıldır ?",
+    "name": "a-7",
+    "id": "7-",
+    "a-1": "sıcak",
+    "a-2": "serin",
+    "a-3": "soğuk",
+    "a-4": "ılık",
+    "ra": ""
+  },
+  {
+    "title": "Şef-Tali'nin neden Sonbahar mevsimini sevmiyor?",
+    "name": "a-8",
+    "id": "8-",
+    "a-1": "<p style='text-align: left;'>Çünkü hava soğuk</p>",
+    "a-2": "<p style='text-align: left;'>Çünkü bu mevsimde yeniden doğuyor, çiçek açar</p>",
+    "a-3": "<p style='text-align: left;'>Çünkü Sıcaklık genelkle 10 derecedir</p>",
+    "a-4": "<p style='text-align: left;'>Çünkü yaprakları sararır ,dökülür</p>",
+    "a-5": "",
+    "ra": ""
+  },
+  {
+    "title": "Sonbahar mevsimini ne zaman biter?",
+    "name": "a-9",
+    "id": "9-",
+    "a-1": "21 Aralık'ta",
+    "a-2": "21 Nisan'da",
+    "a-3": "21 Mayıs'ta",
+    "a-4": "21 Haziran'da",
+    "ra": ""
+  },
+  {
+    "title": "Sonbahar havası sıcaklık kaç derecedir ?",
+    "name": "a-10",
+    "id": "10-",
+    "a-1": "12",
+    "a-2": "10",
+    "a-3": "20",
+    "a-4": "21",
+    "ra": ""
+  },
+  {
+    "title": "",
+    "name": "a-11",
+    "id": "11-",
+    "a-1": "",
+    "a-2": "",
+    "a-3": "",
+    "a-4": "",
+    "ra": ""
+  }
+]
