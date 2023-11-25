@@ -1,6 +1,6 @@
-@use './../helpers/variables.scss' as *;
-@use './../helpers/mixins.scss' as *;
-@use './../componants/links.scss' as *;
+@use "./../helpers/variables.scss" as *;
+@use "./../helpers/mixins.scss" as *;
+@use "./../componants/links.scss" as *;
 
 .test-content {
   padding-top: $main_padding;
@@ -77,12 +77,18 @@
       display: none;
       &.active {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         @include maxMobile {
           grid-template-columns: 1fr;
         }
         &.global {
-        grid-template-columns: 1fr;
+          grid-template-columns: 1fr;
+          a {
+            text-align: center;
+          }
+        }
+        &.not-long {
+          grid-template-columns: 1fr;
           a {
             text-align: center;
           }

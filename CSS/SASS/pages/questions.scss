@@ -84,6 +84,10 @@
       border-top: 1px solid $orange_color;
       border-bottom: 1px solid $orange_color;
       position: relative;
+      font-size: 20px;
+      @include minMobile {
+        font-size: 24px;
+      }
       &::before {
         content: counter(question);
         position: absolute;
@@ -140,9 +144,9 @@
           justify-content: flex-start;
           text-align: right;
           flex-wrap: wrap;
-          font-size: 20px;
+          font-size: 18px;
           @include minMobile {
-            font-size: 18px;
+            font-size: 20px;
           }
           span {
             letter-spacing: 2px;
@@ -281,8 +285,10 @@ span.oncapital-down {
 }
 span.text {
   margin: 0 10px;
+  font-size: 18px;
   @include minMobile {
     margin: 2px;
+    font-size: 22px;
   }
 }
 .eq {
@@ -290,11 +296,14 @@ span.text {
   direction: ltr;
   align-items: center;
   span {
-    span:not(.top-nisted,.bottom-nisted)
-    {
-      @include minMobile {
-        font-size: 24px;
+    span {
+    @include minMobile {
+      font-size: 24px;
+      &.top-nisted,
+      &.bottom-nisted {
+          font-size: 12px;
       }
+    }
     }
   }
 }
@@ -371,7 +380,7 @@ span.text {
 .kasir-nisted {
   font-size: 8px;
   @include minMobile {
-    font-size: 12px;
+    font-size: 8px;
   }
   margin-right: 0;
   display: inline-block;

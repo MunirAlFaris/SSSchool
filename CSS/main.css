@@ -1166,6 +1166,13 @@ header .logo span.box {
 .test-content .container .test-list.active.global a {
   text-align: center;
 }
+.test-content .container .test-list.active.not-long {
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+}
+.test-content .container .test-list.active.not-long a {
+  text-align: center;
+}
 .test-content .container .test-list .row {
   padding: 5px 10px;
   -webkit-transition: 0.4s;
@@ -1303,6 +1310,12 @@ header .logo span.box {
   border-top: 1px solid #EE5622;
   border-bottom: 1px solid #EE5622;
   position: relative;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .q-cont .question .title {
+    font-size: 24px;
+  }
 }
 .q-cont .question .title::before {
   content: counter(question);
@@ -1376,11 +1389,11 @@ header .logo span.box {
   text-align: right;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 20px;
+  font-size: 18px;
 }
 @media (min-width: 768px) {
   .q-cont .question .answers div label {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .q-cont .question .answers div label span {
@@ -1573,10 +1586,12 @@ span.oncapital-down {
 
 span.text {
   margin: 0 10px;
+  font-size: 18px;
 }
 @media (min-width: 768px) {
   span.text {
     margin: 2px;
+    font-size: 22px;
   }
 }
 
@@ -1590,8 +1605,11 @@ span.text {
           align-items: center;
 }
 @media (min-width: 768px) {
-  .eq span span:not(.top-nisted, .bottom-nisted) {
+  .eq span span {
     font-size: 24px;
+  }
+  .eq span span.top-nisted, .eq span span.bottom-nisted {
+    font-size: 12px;
   }
 }
 
@@ -1707,7 +1725,7 @@ span.text {
 }
 @media (min-width: 768px) {
   .kasir-nisted {
-    font-size: 12px;
+    font-size: 8px;
   }
 }
 .kasir-nisted .top-nisted {

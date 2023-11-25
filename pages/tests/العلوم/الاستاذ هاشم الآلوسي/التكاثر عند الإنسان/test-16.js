@@ -24,6 +24,7 @@ function getQuestions() {
         inputs.forEach((ele) => {
           if (ele.value === ele.dataset.answer) {
             allTrues.push(ele);
+            console.log(allTrues);
           }
           if (ele.checked) {
             if (ele.value === ele.dataset.answer) {

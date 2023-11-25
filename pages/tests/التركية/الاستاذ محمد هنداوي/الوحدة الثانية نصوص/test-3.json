@@ -101,13 +101,103 @@
     "ra": ""
   },
   {
-    "title": "",
+    "title": "<div><h4 style='text-align: center;'>Bir kış şehri: Yakutsk</h4><p>Dünyanın en soğuk şehrini hiç merak ettiniz mi? Cevabınız evet mi? O zaman kışlık kıyafetlerinizi yanınıza alın. Yakutsk şehrine gidiyoruz. Bu şehirde kış mevsimi eylül ayında başlar ve nisan ayına kadar devam eder. Kışın hava çok soğuktur ve Sıcaklık -60 derecedir. Dışanda 15 dakikadan fazla kalamazsınız. Çünkü hava çok soğuktur, donarsınız. Bu mevsimde güneş sadece üç saat gökyüzünde kalır. Ben iki sene önce aralık ayında Yakutsk'a gittim ve bu fotoğraflan çektim. Bu şehirde tarım ürünleri yetişmez çünkü toprak tamamen buzla kaplıdır. Ben de bu şehirde sadece et yedim. Burada buzdan müzeleri ve heykelleri mutlaka görün. Çok beğeneceksiniz.</p><div style='padding : 5px 0'><b>Aşağıdaki soruları metne göre cevaplayın.</b></div><div>-yazar Bu şehirde neden sadece et yedi ?</div></div>",
     "name": "a-11",
     "id": "11-",
-    "a-1": "",
-    "a-2": "",
-    "a-3": "",
-    "a-4": "",
+    "a-1": "<p style='text-align: left;'>çünkü et çok seviyor</p>",
+    "a-2": "<p style='text-align: left;'>çünkü yazar vejeteryan bir kişi</p>",
+    "a-3": "<p style='text-align: left;'>çünkü tarım ürünleri yetişmez</p>",
+    "a-4": "<p style='text-align: left;'>çünkü buzdolabı bozuldu</p>",
+    "ra": ""
+  },
+  {
+    "title": "Niçin dışarıda on beş dakika fazla kalamazsınız ?",
+    "name": "a-12",
+    "id": "12-",
+    "a-1": "<p style='text-align: left;'>çünkü hasta olacaksınız</p>",
+    "a-2": "<p style='text-align: left;'>çünkü hava soğuk donarsınız</p>",
+    "a-3": "<p style='text-align: left;'>çünkü tarım ürünleri yoktur</p>",
+    "a-4": "<p style='text-align: left;'>çünkü hava çok sıcak değil</p>",
+    "ra": ""
+  },
+  {
+    "title": "yazar ne zaman yakutsk'a gitti ?",
+    "name": "a-13",
+    "id": "13-",
+    "a-1": "<p style='text-align: left;'>bir sene sonra gitti</p>",
+    "a-2": "<p style='text-align: left;'>iki yıl önce gitti</p>",
+    "a-3": "<p style='text-align: left;'>bir hafta önce gitti</p>",
+    "a-4": "<p style='text-align: left;'>iki ay önce gitti</p>",
+    "ra": ""
+  },
+  {
+    "title": "bu sehirde hangi şeyden müzeleri yapar ?",
+    "name": "a-14",
+    "id": "14-",
+    "a-1": "Taş'tan",
+    "a-2": "kum'den",
+    "a-3": "Buz'dan",
+    "a-4": "yağ'dan",
+    "ra": ""
+  },
+  {
+    "title": "yazar hangi ayda bu sehri gezdi ?",
+    "name": "a-15",
+    "id": "15-",
+    "a-1": "Aralık'ta",
+    "a-2": "ocak'ta",
+    "a-3": "temmuzda",
+    "a-4": "Ağustos'ta",
+    "ra": ""
+  },
+  {
+    "title": "<div><h4 style='text-align: center;'>Bir yaz şehri: El Aziziye</h4><p>Sıcağa ne kadar dayanabilirsiniz? Hiç düşündünüz mü? O zaman dünyanın en sıcak şehrine gidelim. Burası Libya'nın El-Aziziye şehri. Burada dört mevsim yaşanmaz. Genellikle yılın büyük bir bölümünde yaz mevsimi yaşanır ve sıcaklık 50 derecedir. Ben El Aziziye şehrine beş ay önce temmuz ayında gittim. Hava gerçekten çok sıcaktı. Ama şehir yine de çok kalabalıktı. Çünkü bu şehir önemli bir ticaret merkezi. Ben bu şehrin muhteşem çöllerini ve kalelerini gezdim. Çölde çok fazla kale var çünkü bu kaleler yiyecekleri serin tutuyor. Şimdi size soruyorum, bu şehre gitmek ister misiniz? Cevabınız evet ise yanınıza açık renk kiyafetler alın. Gözlük ve şapka takın. Çünkü dünyada, bu şehirden daha sıcak bir şehir yok.</p><div style='padding: 5px 0;'><b>Aşağıdaki soruları metne göre cevaplayın</b></div><div>-Bu şehir hangi ülkede vardır?</div></div>",
+    "name": "a-16",
+    "id": "16-",
+    "a-1": "Tunus'ta",
+    "a-2": "Asya'da",
+    "a-3": "Afrika'da",
+    "a-4": "Libya'da",
+    "ra": ""
+  },
+  {
+    "title": "yiyecekleri nerede serin tutuyor ?",
+    "name": "a-17",
+    "id": "17-",
+    "a-1": "buzdolabında",
+    "a-2": "evlerinde",
+    "a-3": "kalede",
+    "a-4": "mutfakta",
+    "ra": ""
+  },
+  {
+    "title": "Bu şehirde hangi kıyafetleri gitmeliyiz?",
+    "name": "a-18",
+    "id": "18-",
+    "a-1": "nce kıyafetler",
+    "a-2": "kalın kıyafetler",
+    "a-3": "kışlık kıyafetler",
+    "a-4": "- hırka ve kazak",
+    "ra": ""
+  },
+  {
+    "title": "Bu şehirde kaç mavsim yaşanır ?",
+    "name": "a-19",
+    "id": "19-",
+    "a-1": "kırk",
+    "a-2": "beş",
+    "a-3": "hiç",
+    "a-4": "tek",
+    "ra": ""
+  },
+  {
+    "title": "Niçin bu sehir kalabalıktı ?",
+    "name": "a-20",
+    "id": "20-",
+    "a-1": "<p style='text-align: left;'>çünkü önemli bir ticaret merkeziyd</p>",
+    "a-2": "<p style='text-align: left;'>çünkü orada hava soğuk oldu</p>",
+    "a-3": "<p style='text-align: left;'>çünkü çok fazla kale vardı</p>",
+    "a-4": "<p style='text-align: left;'>çünkü insanlar saygıyla davranıyordu</p>",
     "ra": ""
   }
 ]
