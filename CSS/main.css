@@ -1299,7 +1299,12 @@ header .logo span.box {
   width: 350px;
   padding: 10px 5px;
   margin-bottom: 15px;
-  font-size: 10px;
+  font-size: 11px;
+}
+.q-cont .ar-sub .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 @media (min-width: 768px) {
   .q-cont .ar-sub {
@@ -1331,12 +1336,6 @@ header .logo span.box {
   border-top: 1px solid #EE5622;
   border-bottom: 1px solid #EE5622;
   position: relative;
-  font-size: 20px;
-}
-@media (min-width: 768px) {
-  .q-cont .question .title {
-    font-size: 24px;
-  }
 }
 .q-cont .question .title::before {
   content: counter(question);
@@ -1887,7 +1886,7 @@ span.text {
 }
 
 sup {
-  font-size: 8px;
+  font-size: 12px;
   margin: 3px;
 }
 

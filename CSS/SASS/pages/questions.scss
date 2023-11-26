@@ -77,7 +77,10 @@
     width: 350px;
     padding: 10px 5px;
     margin-bottom: 15px;
-    font-size: 10px;
+    font-size: 11px;
+    .right {
+      flex: 1;
+    }
     @include minMobile {
       width: 700px;
       font-size: 22px;
@@ -99,10 +102,10 @@
       border-top: 1px solid $orange_color;
       border-bottom: 1px solid $orange_color;
       position: relative;
-      font-size: 20px;
-      @include minMobile {
-        font-size: 24px;
-      }
+      // font-size: 20px;
+      // @include minMobile {
+      //   font-size: 24px;
+      // }
       &::before {
         content: counter(question);
         position: absolute;
@@ -499,7 +502,7 @@ span.text {
   letter-spacing: 1px;
 }
 sup {
-  font-size: 8px;
+  font-size: 12px;
   margin: 3px;
 }
 .under-radic {
