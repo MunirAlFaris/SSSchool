@@ -1272,19 +1272,40 @@ header .logo span.box {
 .q-cont .text-sub {
   background-color: white;
   border-radius: 10px;
-  width: 350px;
+  border: 1px solid #EE5622;
   padding: 10px 15px;
-  margin-bottom: 15px;
   font-size: 18px;
+  width: 350px;
+  margin-bottom: 15px;
 }
 @media (min-width: 768px) {
   .q-cont .text-sub {
-    width: 700px;
     font-size: 22px;
+    width: 700px;
   }
 }
 .q-cont .text-sub .q-t {
   font-weight: bold;
+}
+.q-cont .ar-sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  width: 350px;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  font-size: 10px;
+}
+@media (min-width: 768px) {
+  .q-cont .ar-sub {
+    width: 700px;
+    font-size: 22px;
+  }
 }
 .q-cont .question {
   font-family: serif;

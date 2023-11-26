@@ -56,16 +56,31 @@
   .text-sub {
     background-color: white;
     border-radius: 10px;
-    width: 350px;
+    border: 1px solid $orange_color;
     padding: 10px 15px;
-    margin-bottom: 15px;
     font-size: 18px;
+    width: 350px;
+    margin-bottom: 15px;
     @include minMobile {
-      width: 700px;
       font-size: 22px;
+      width: 700px;
     }
     .q-t {
       font-weight: bold;
+    }
+  }
+  .ar-sub {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    padding: 10px 5px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    @include minMobile {
+      width: 700px;
+      font-size: 22px;
     }
   }
   .question {

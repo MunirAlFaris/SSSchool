@@ -7,7 +7,7 @@
     "a-2": "yoğurt",
     "a-3": "zeytin",
     "a-4": "reçel",
-    "ra": ""
+    "ra": "2"
   },
   {
     "title": "Kuymağın içinde neler var?",
@@ -17,7 +17,7 @@
     "a-2": "<p style='text-align: left;'>tereyağı, mısır unu, süt ve tel peyniri var</p>",
     "a-3": "<p style='text-align: left;'>tereyağı, un, yumurta ve tel peyniri var</p>",
     "a-4": "<p style='text-align: left;'>içinde yağ, mısır unu, süt ve tel peyniri var</p>",
-    "ra": ""
+    "ra": "2"
   },
   {
     "title": "Sınırsız çay ne demek?",
@@ -27,7 +27,7 @@
     "a-2": "Hiç çay içmezsın",
     "a-3": "Çay yok",
     "a-4": "Istediğiniz kadar içebilirsin",
-    "ra": ""
+    "ra": "4"
   },
   {
     "title": "<div><div'q-t'><b>okuma:</b></div><div><b>Zeynep : </b> Evet , gençler , hangisini seçelim ? Van kahvaltısı mı, Trabzon kahvaltısı mı?</div><div><b>Akira:</b> Ben Al mir'le Van kahvaltısını seçiyorum . Çünkü Van kahvaltısında çok çeşit var</div><div><b>Ayşe:</b> Biz,Rina ile Trabzon kahvaltısı istiyoruz. Çünkü kuymagın tadını çok merak ediyoruz</div><div><b>Osman:</b> Biz de Emily ile Trabzon kahvaltısı istiyoruz. Çünkü Trabzon kahvaltısında gözleme var. Gözleme yemek istiyoruz</div><div><b>Murat:</b> O hâlde biz de van kahvaltısnı seçiypruz. Çünkü Van kahvaltısında kırk çeşit kahvaltılık var.</div><div><b>Hakan Amca:</b>Ben de Trabzon kahvaltısı istiyorum</div><div><b>Zeynep Hanım:</b> Ben Van kahvaltısı istiyorum.</div><div><b>Hakan Bey:</b> Garson bey, biz beş kişilik Van kahvaltısı, beş kişilik Trabzon kahvaltısı istiyoruz</div><div><b>Garson:</b> Tabii efendim. Siparişiniz 20 dakika sonra hazır</div><div style='padding: 5px 0'><b>Aşağıdaki soruları metne göre cevaplayın.</b></div></div> -Sipariş kim veriyor ?",
@@ -37,7 +37,7 @@
     "a-2": "Ayşe",
     "a-3": "Osman",
     "a-4": "Hakan bey",
-    "ra": ""
+    "ra": "4"
   },
   {
     "title": "Emily hangi kahvaltıyı seçiyor ?",
@@ -47,7 +47,7 @@
     "a-2": "fark etmez ,",
     "a-3": "Van kahvaltı ,",
     "a-4": "ikisi",
-    "ra": ""
+    "ra": "1"
   },
   {
     "title": "Murat , niçin Van kahvaltısı seçiyor ?",
@@ -57,7 +57,7 @@
     "a-2": "çünkü çay sınırsız",
     "a-3": "çünkü kırk çeşit kahvaltılık var",
     "a-4": "çünkü kahvaltısında gözleme var.",
-    "ra": ""
+    "ra": "3"
   },
   {
     "title": "Et ürünleri doğru işaretleyin",
@@ -67,7 +67,7 @@
     "a-2": "tavuk",
     "a-3": "kavun",
     "a-4": "karpuz",
-    "ra": ""
+    "ra": "2"
   },
   {
     "title": "karpuzun ölçü nedir",
@@ -77,7 +77,7 @@
     "a-2": "kalıp",
     "a-3": "litre",
     "a-4": "kilo",
-    "ra": ""
+    "ra": "1"
   },
   {
     "title": "Bir fincan ........... kahve alabilimiyim?",
@@ -87,7 +87,7 @@
     "a-2": "tatlı",
     "a-3": "ekşi",
     "a-4": "sütlü",
-    "ra": ""
+    "ra": "4"
   },
   {
     "title": "Bir kilo................ biber almak istiyorum .",
@@ -97,7 +97,7 @@
     "a-2": "ekşi",
     "a-3": "Peynirli",
     "a-4": "acısız",
-    "ra": ""
+    "ra": "4"
   },
   {
     "title": "Biz üç porsiyon ...................makarna alalım",
@@ -107,7 +107,7 @@
     "a-2": "tatlı",
     "a-3": "sütlü",
     "a-4": "şekerli",
-    "ra": ""
+    "ra": "1"
   },
   {
     "title": "<p><div><b>Müşteri : </b>Affedersiniz ? Bakar mısınız?</div><div><b>Garsun : </b> Hoş geldiniz , buyrun .</div><div><b>Müşteri : </b>Sipariş vermek istiyorum .Lütfen</div><div>...........................</div><div><b>Garsun : </b>Tabii ki buyrun menü.</div></p>",
@@ -117,7 +117,7 @@
     "a-2": "Ödeme kerdi kartıyla olacak",
     "a-3": "Hesabı alabilirmiyim ?",
     "a-4": "menü alabilirmiyim",
-    "ra": ""
+    "ra": "4"
   },
   {
     "title": "Eş anlam (birlikte) ne gelir ?",
@@ -127,7 +127,7 @@
     "a-2": "his",
     "a-3": "beraber",
     "a-4": "tabiat",
-    "ra": ""
+    "ra": "3"
   },
   {
     "title": "<p><div> A: ………../ sana göre bu yemek nasıl?</div><div>B: bence /…………… bu yemek çok güzel</div></p>",
@@ -137,7 +137,7 @@
     "a-2": "sence - bana göre",
     "a-3": "bizce - sana göre",
     "a-4": "sizce - bana göre",
-    "ra": ""
+    "ra": "2"
   },
   {
     "title": "<p><div><b>lokantada</b></div><div><b>Satıcı : </b>Hoş geldiniz</div><div><b>Müşteri : </b>………………</div><div><b>Satıcı : </b>ne arzu edersiniz</div><div><b>Müşteri : </b> …………………………</div><div><b>Satıcı : </b>tabii , buyurun</div><div><b>Müşteri : </b>teşekkür ederim</div></p>",
@@ -146,8 +146,8 @@
     "a-1": "<p style='text-align: left'>borcum ne kadar - yine bekleriz</p>",
     "a-2": "<p style='text-align: left'>selamünaleyküm - menü alabilir miyim</p>",
     "a-3": "<p style='text-align: left'>hoşça kal - başka bir şey ister misiniz</p>",
-    "a-4": "<p style='text-align: left'>hoşgeldiniz - menü alabilir miyim</p>",
-    "ra": ""
+    "a-4": "<p style='text-align: left'>hoşbulduk - menü alabilir miyim</p>",
+    "ra": "4"
   },
   {
     "title": "dedem şeker sevmiyor çünkü hasta buyüzde çay …………….. içiyor .",
@@ -157,7 +157,7 @@
     "a-2": "şekersiz",
     "a-3": "tuzlu",
     "a-4": "yoğurtsuz",
-    "ra": ""
+    "ra": "2"
   },
   {
     "title": "…………….bir kahvaltılık çeşididir",
@@ -167,7 +167,7 @@
     "a-2": "biber dolma.",
     "a-3": "kuymak",
     "a-4": "kuru fasulye",
-    "ra": ""
+    "ra": "3"
   },
   {
     "title": "bir kilo demir mi , bir kilo pamuk mu daha ağırdır",
@@ -177,7 +177,7 @@
     "a-2": "<p style='text-align: left'>bir kilo demir,bir kilo pamuktan daha hafif</p>",
     "a-3": "<p style='text-align: left'>bir kilo demir, bir kilo demirden daha güze</p>",
     "a-4": "<p style='text-align: left'> Her ikisi eşittir</p>",
-    "ra": ""
+    "ra": "4"
   },
   {
     "title": "Aşağıdakilerden hangi cümlede bir kişisel görüş bildirme vardır ?",
@@ -187,7 +187,7 @@
     "a-2": "bana göre bugün çok sıcak",
     "a-3": "Babam öğretmen olarak çalışıyor",
     "a-4": "ben ailemi seviyorum",
-    "ra": ""
+    "ra": "2"
   },
   {
     "title": "Bugün marketten bir ……… yumurta aldım",
@@ -197,6 +197,6 @@
     "a-2": "paket",
     "a-3": "şişe",
     "a-4": "koli",
-    "ra": ""
+    "ra": "4"
   }
 ]
