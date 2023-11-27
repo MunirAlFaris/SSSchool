@@ -961,3 +961,19 @@ sup {
     }
   }
 }
+.rarr-wrap {
+  // display: inline-block;
+  position: relative;
+  padding: 10px;
+  .to-front {
+    position: absolute;
+    top: 20%;
+    left: 0;
+  }
+  .to-back {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: rotate(180deg);
+  }
+}

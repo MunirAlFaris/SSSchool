@@ -2439,6 +2439,23 @@ sup {
   right: -25px;
 }
 
+.rarr-wrap {
+  position: relative;
+  padding: 10px;
+}
+.rarr-wrap .to-front {
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+.rarr-wrap .to-back {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .files {
   padding-top: 50px;
   padding-bottom: 100px;
