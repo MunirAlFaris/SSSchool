@@ -1332,7 +1332,7 @@ header .logo span.box {
 .q-cont .question .title {
   background-color: white;
   text-align: right;
-  padding: 15px;
+  padding: 15px 8px;
   border-top: 1px solid #EE5622;
   border-bottom: 1px solid #EE5622;
   position: relative;
