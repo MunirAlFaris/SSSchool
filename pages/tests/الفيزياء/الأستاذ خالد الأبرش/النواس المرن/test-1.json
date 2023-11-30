@@ -60,7 +60,7 @@
     "ra": "1"
   },
   {
-    "title": "إن قوة اإلرجاع في نواس المرن :",
+    "title": "إن قوة الإرجاع في نواس المرن :",
     "name": "a-7",
     "id": "7-",
     "a-1": "تتناسب طردا مع المطال و تخالفه بالإشارة",
@@ -90,7 +90,7 @@
     "ra": "3"
   },
   {
-    "title": "يهتز جسم معلق بنابض مرن مهمل الكتلة حلقاته متباعدة شاقوليا بحركة توافقية بسيطة بدور خاص <span dir='ltr' style='display: inline-block'>(<i>T</i><sub style='font-size: 10px;'>0</sub> = 4 <i>s</i>)</span> و طول القطعة المستقيمة التي يهتز عليها الجسم يساوي <span dir='ltr' style='display: inline-block'>( 10 <i>cm</i> )</span> و بفرض مبدأ الزمن لحظة مرور الجسم من مركز االهتزاز و هو يتحرك باالتجاه لسالب : فيكون التابع الزمني للمطال:",
+    "title": "يهتز جسم معلق بنابض مرن مهمل الكتلة حلقاته متباعدة شاقوليا بحركة توافقية بسيطة بدور خاص <span dir='ltr' style='display: inline-block'>(<i>T</i><sub style='font-size: 10px;'>0</sub> = 4 <i>s</i>)</span> و طول القطعة المستقيمة التي يهتز عليها الجسم يساوي <span dir='ltr' style='display: inline-block'>( 10 <i>cm</i> )</span> و بفرض مبدأ الزمن لحظة مرور الجسم من مركز الاهتزاز و هو يتحرك بالاتجاه لسالب : فيكون التابع الزمني للمطال:",
     "name": "a-10",
     "id": "10-",
     "a-1": "<div class='eq-ans' dir='ltr'><span><i>x</i></span><span class='sign'>=</span><span>0.1cos</span><span>( &pi;<i>t</i></span><span class='sign'>+</span><div class='kasir' style='flex: 2;'><span class='top'>&pi;</span><span class='bottom'>2</span></div><span>)</span></div>",
@@ -100,7 +100,7 @@
     "ra": "4"
   },
   {
-    "title": "باالقتراب من مركز اإلهتزاز بالهزازة التوافقية البسيطة و بإهمال القوى المبددة للطاقة:",
+    "title": "بالاقتراب من مركز الإهتزاز بالهزازة التوافقية البسيطة و بإهمال القوى المبددة للطاقة:",
     "name": "a-11",
     "id": "11-",
     "a-1": "تتحول الطاقة الميكانيكية إلى طاقة حركية",
@@ -110,7 +110,7 @@
     "ra": "4"
   },
   {
-    "title": "لمعادلة التفاضلية في النواس المرن :",
+    "title": "المعادلة التفاضلية في النواس المرن :",
     "name": "a-12",
     "id": "12-",
     "a-1": "<div class='eq-ans' dir='ltr'><span>(<i>x</i>)<sup>''</sup><sub style='margin-left: -12px; font-size: 12px;'><i>t</i></sub></span><span class='sign'>=</span><div class='kasir' style='flex: 2;'><span class='top'><i>k</i></span><span class='bottom'><i>m</i></span></div><span><i>x</i></span></div>",
@@ -170,7 +170,7 @@
     "ra": "3"
   },
   {
-    "title": "إن جهة قوة اإلرجاع دوما :",
+    "title": "إن جهة قوة الإرجاع دوما :",
     "name": "a-18",
     "id": "18-",
     "a-1": "نحو <span dir='ltr'>+X<sub><i>max</i></sub></span>",

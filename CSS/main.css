@@ -1230,6 +1230,9 @@ header .logo span.box {
   overflow: hidden;
   border: 1px solid #EE5622;
 }
+.q-cont .questions.ltr .answers label {
+  text-align: left;
+}
 .q-cont .questions.done {
   pointer-events: none;
 }
